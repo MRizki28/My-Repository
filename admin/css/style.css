@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+body {
+    background-image: url("images/a.jpg");
+    background-size: 100%;
+}
+
+* {
+    color: inherit;
+    text-decoration: none;
+}
+
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 300px;
+    min-height: 260px;
+    border: 1px solid #ccc;
+    background-color: rgb(188, 188, 188);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+}
+
+.input-name1 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.button-login {
+    width: 150px;
+    padding: 8px 25px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.button-login:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+.button-login1:hover {
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.437);
+   
+    
+
+
+}
+
+.button-login1 {
+    padding: 10px 25px;
+    margin-top: 15px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+ 
+}
+
+.button-login2 {
+    padding: 6px 10px;
+    background-color: aqua;
+    color: black;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.button-login2:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+.button-login3 {
+    padding: 6px 10px;
+    background-color: red;
+    color: black;
+    border: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.button-login3:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+.daftar {
+    font-size: 12;
+    padding: 10px 25px;
+    color: rgb(0, 167, 250);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.daftar1 {
+    font-size: 12;
+    padding: 10px 25px;
+    color: rgb(0, 167, 250);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(188, 188, 188);
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+    padding: 10px 0;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+
+footer {
+    padding: 25px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section {
+    padding: 25px 0;
+
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 20px 0 25px 0;
+    border-radius: 5px;
+}
+
+.box1 {
+    background-color: rgb(188, 188, 188);
+    border: 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 20px 0 25px 0;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.table tr {
+    height: 40px;
+}
+
+.table tr td {
+    padding: 5px 20px;
+}
+
+
+
